@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(207, 134, 8);
+    color: #fffbff;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.menus{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 18px;
+}
+.H2{
+    padding: 10px;
+}
+button{
+    cursor: pointer;
+    /* size: 40px; */
+    margin: 10px;
+    padding: 5px;
+    /* border-radius: 5px; */
+}
